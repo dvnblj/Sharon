@@ -21,7 +21,7 @@
 > chmod +x sharon.sh
 ```
 ```
-> sharon.sh
+> ./sharon.sh
 ```
 
 
