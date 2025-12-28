@@ -2,11 +2,11 @@
 
 # Configuration
 ORG_NAME="<organization name>" #eg: "Apache"
-MAX_REPOS=1000
+MAX_REPOS=1000 #max number of repositories to clone within an org. (could be changed to any preferable number)
 OUTPUT_DIR="scan_results"
 LOG_FILE="scan_${ORG_NAME}_$(date +%Y%m%d_%H%M%S).log"
-TELEGRAM_CHAT_ID="<TG-Chat_id>"
-TELEGRAM_BOT_TOKEN="<Token>"
+TELEGRAM_CHAT_ID="<TG-Chat_id>" #Telegram chat ID
+TELEGRAM_BOT_TOKEN="<Token>" #Telegram bit Token
 
 send_telegram() {
     local MESSAGE="$1"
